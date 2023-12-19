@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Extension hot reload client",
+    "version": "1.0",
+    "description": "Reload extensions on file change",
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "commands": {
+      "reload-extensions": {
+        "suggested_key": {
+          "default": "Alt+R"
+        },
+        "description": "Reload all installed extensions"
+      }
+    },
+    "permissions": ["management"]
+  }
+  
