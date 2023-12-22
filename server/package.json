@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "ws": "^8.15.1"
+  },
+  "scripts": {
+    "test_windows": "node server.js ..\\extension",
+    "test_linux": "node server.js ..//extension"
   }
 }
